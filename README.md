@@ -8,5 +8,13 @@ Search any pokemons using pokemon api shows weight, Health, Height, and Type
 * JQuery
 * Google Fonts
 
-* ScreenShots
+# ScreenShots
 <img src="image/Screen shot for Pokemon api.png">
+<img src="image/Snorlax.PNG">
+
+# Future Enhancements
+* List of pokemon under searched pokemons
+* Search pokemon shows up as pokemon card style
+* Sort different versions of pokemon
+* Which location the pokemon is located
+* Hover button for skills

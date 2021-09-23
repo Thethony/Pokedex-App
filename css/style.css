@@ -6,6 +6,7 @@
 body{
     text-align: center;
     background-color: #444C55;
+    box-sizing: border-box;
 }
 
 input {
@@ -13,10 +14,11 @@ input {
     text-transform: capitalize;
 }
 main {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: capitalize;
+    color: yellow;
 }
 #pokeimage {
-    width: 200px;
-    height: 200px;
+    height: 100px;
+    width: 100px;
 }

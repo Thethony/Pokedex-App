@@ -3,13 +3,14 @@ $(function() {
     const pokemon_url="https://pokeapi.co/api/v2/pokemon/"
     let pokemonData;
     // elements
+    const $pokeName =$('#pokeName')
     const $type = $("#type");
     const $height = $("#height");
     const $health = $("#health");
     const $weight = $("#weight");
     const $form = $('form');
     const $input = $('input[type="text"]');
-    const $photo = $("image")
+    const $pokePhoto = $('#pokeimage');
     $form.on('submit', handleGetData)
     
     function handleGetData(event) {
@@ -30,7 +31,9 @@ $(function() {
         $type.text("Type: " + pokemonData.types[0].type.name)
         $height.text("Height: " + pokemonData.height)
         $health.text("Health: " + pokemonData.stats[0].base_stat)
-        $weight.text("weight: " + pokemonData.weight)
+        $weight.text("Weight: " + pokemonData.weight)
+        $pokePhoto.attr("src", pokemonData.sprites.front_default)
+        $pokeName.text("Name: " + pokemonData.name)
     }
 
 });

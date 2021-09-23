@@ -6,3 +6,4 @@ Search any pokemons using pokemon api shows weight, Health, Height, and Type
 * Javascript
 * Pokemon api
 * JQuery
+* Google Fonts

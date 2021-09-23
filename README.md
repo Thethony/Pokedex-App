@@ -9,4 +9,4 @@ Search any pokemons using pokemon api shows weight, Health, Height, and Type
 * Google Fonts
 
 * ScreenShots
-![image] /home/thony/Pokedex-App/image/Screen shot for Pokemon api.png
+![]/home/thony/Pokedex-App/image/Screen shot for Pokemon api.png

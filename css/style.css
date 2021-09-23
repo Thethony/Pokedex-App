@@ -1,12 +1,22 @@
 *{
     margin:0px;
     padding:0px;
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important; /* End https://www.cursors-4u.com */ 
 }
 body{
     text-align: center;
+    background-color: #444C55;
 }
-h1{
-    border: 10px 10px;
-    color: Yellow;
-    
+
+input {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+main {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+#pokeimage {
+    width: 200px;
+    height: 200px;
 }

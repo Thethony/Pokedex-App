@@ -17,9 +17,9 @@ main {
     font-size: 20px;
     text-transform: capitalize;
     color: yellow;
-    font-family: 'Gluten'
+    font-family: 'Gluten';
 }
 #pokeimage {
-    height: 100px;
-    width: 100px;
+    height: 170px;
+    width: 170px;
 }
